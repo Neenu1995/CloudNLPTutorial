@@ -17,8 +17,8 @@ public class TestClass {
         // Instantiates a client
         // Instantiate the Language client com.google.cloud.language.v1.LanguageServiceClient
         String text = "I am sad";
-        authImplicit();
-        //  System.out.println(analyzeSentimentHere(text));
+        // authImplicit();
+        System.out.println(analyzeSentimentHere(text));
     }
 
 
